@@ -65,11 +65,14 @@ img {
 
 .logo {
   text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1;
   color: #f7fbf4;
 }
+
 
 .nav-toggle {
   display: none;
@@ -414,54 +417,85 @@ textarea {
   font-size: 0.92rem;
 }
 
-.site-footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-  margin-top: 28px;
-  background: rgba(13, 75, 30, 0.92);
-}
 
-.site-footer h3,
-.site-footer p,
-.site-footer li,
-.site-footer a {
-  color: #edf5ea;
+.site-footer {
+  margin-top: 42px;
+  background: linear-gradient(180deg, rgba(13, 75, 30, 0.94) 0%, rgba(10, 60, 24, 0.98) 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .footer-inner {
-  padding: 28px 0;
+  padding: 38px 0 22px;
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr 0.8fr;
-  gap: 20px;
+  grid-template-columns: minmax(0, 1.45fr) minmax(200px, 0.55fr);
+  gap: 28px;
+  align-items: start;
 }
 
-.site-footer h3 {
-  font-size: 1.1rem;
-  margin-bottom: 10px;
+.footer-brand,
+.footer-contact {
+  display: grid;
+  gap: 10px;
 }
 
-.site-footer ul {
-  list-style: none;
-  padding: 0;
+.footer-mark {
   margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.55rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: #f4fbf1;
 }
 
-.site-footer li+li {
-  margin-top: 8px;
+.footer-kicker {
+  margin: 0;
+  font-size: 0.74rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgba(237, 245, 234, 0.66);
 }
 
-.site-footer a {
+.footer-tagline {
+  margin: 0;
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer-copy {
+  margin: 0;
+  max-width: 42ch;
+  color: rgba(237, 245, 234, 0.82);
+}
+
+.footer-contact a,
+.footer-contact p {
+  margin: 0;
+  color: #edf5ea;
   text-decoration: none;
 }
 
-.site-footer a:hover {
+.footer-contact a {
+  font-weight: 700;
   color: #ffffff;
+}
+
+.footer-contact a:hover {
+  color: #e6f0d3;
 }
 
 .footer-bottom {
   grid-column: 1 / -1;
+  margin-top: 10px;
   padding-top: 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
-  color: rgba(237, 245, 234, 0.8);
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: rgba(237, 245, 234, 0.78);
   font-size: 0.92rem;
 }
 

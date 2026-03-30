@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="styles.css" />
   <script src="script.js" defer></script>
 </head>
+
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
 
@@ -26,89 +28,78 @@
   </header>
 
   <main id="main-content">
-    
-<section class="hero section">
-  <div class="hero-grid">
-    <div class="panel hero-copy">
-      <p class="kicker">Contact</p>
-      <h1>Register interest.</h1>
-      <p class="lead">
-        A simple static form to show how the product could collect leads in a real rollout.
-      </p>
-    </div>
-    <aside class="panel hero-side">
-      <div class="stat">
-        <span class="stat-value">Static</span>
-        <p>This form is front-end only for the assignment.</p>
-      </div>
-    </aside>
-  </div>
-</section>
 
-<section class="section">
-  <div class="grid-2">
-    <div class="form-shell">
-      <span class="label">Form</span>
-      <h3>Waiting list</h3>
-      <div class="form-grid">
-        <div>
-          <label for="name">Name</label>
-          <input id="name" type="text" placeholder="Your name" />
+    <section class="hero section">
+      <div class="hero-grid">
+        <div class="panel hero-copy">
+          <p class="kicker">Contact</p>
+          <h1>Register interest.</h1>
+          <p class="lead">
+            A short contact form for organisations, businesses, or people interested in the idea.
+          </p>
         </div>
-        <div>
-          <label for="email">Email</label>
-          <input id="email" type="email" placeholder="Your email" />
+        <aside class="panel hero-side">
+          <div class="stat">
+            <span class="stat-value">Static</span>
+            <p>This version includes a front-end only contact form.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-2">
+        <div class="form-shell">
+          <span class="label">Form</span>
+          <h3>Waiting list</h3>
+          <div class="form-grid">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your name" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="Your email" />
+            </div>
+            <div>
+              <label for="message">Interest</label>
+              <textarea id="message" placeholder="Business, user, partner, investor..."></textarea>
+            </div>
+          </div>
+          <button class="fake-button" type="button">Request updates</button>
+          <p class="small-note">This form is visual only and does not submit data.</p>
         </div>
-        <div>
-          <label for="message">Interest</label>
-          <textarea id="message" placeholder="Business, user, partner, investor..."></textarea>
+
+        <div class="card">
+          <span class="label">Direct</span>
+          <h3>Other contact routes</h3>
+          <p>support@refeed.com</p>
+          <p>Dublin, Ireland</p>
+          <p></p>
         </div>
       </div>
-      <button class="fake-button" type="button">Request updates</button>
-      <p class="small-note">Demonstration only. No data is sent.</p>
-    </div>
-
-    <div class="card">
-      <span class="label">Direct</span>
-      <h3>Other contact routes</h3>
-      <p>refeedplus@example.com</p>
-      <p>Dublin, Ireland</p>
-      <p>@refeedplus</p>
-    </div>
-  </div>
-</section>
+    </section>
 
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div>
-        <h3>ReFeed+</h3>
-        <p>A simple prototype for a smarter surplus food system.</p>
+      <div class="footer-brand">
+        <p class="footer-mark">ReFeed+</p>
+        <p class="footer-tagline">Smarter surplus. Better access.</p>
+        <p class="footer-copy">A cleaner way for local food businesses to reduce waste and support people who need food
+          most.</p>
       </div>
-      <div>
-        <h3>Pages</h3>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="market-customer.html">Market</a></li>
-          <li><a href="business-financials.html">Business</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Contact</h3>
-        <ul>
-          <li>refeedplus@example.com</li>
-          <li>Dublin, Ireland</li>
-          <li>@refeedplus</li>
-        </ul>
+      <div class="footer-contact">
+        <p class="footer-kicker">Contact</p>
+        <a href="mailto:support@refeed.com">support@refeed.com</a>
+        <p>Dublin, Ireland</p>
       </div>
       <div class="footer-bottom">
-        &copy; <span id="year"></span> ReFeed+ — static academic prototype.
+        <p>&copy; <span id="year"></span> ReFeed+ · Two sides. One system.</p>
       </div>
     </div>
   </footer>
 </body>
+
 </html>
