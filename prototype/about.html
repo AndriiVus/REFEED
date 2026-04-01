@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ReFeed+ | About</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="../prototype/styles.css" />
+  <script src="../prototype/script.js" defer></script>
 </head>
 
 <body>
@@ -14,40 +14,78 @@
 
   <header class="site-header">
     <nav class="navbar" aria-label="Main navigation">
-      <a href="index.html" class="logo">ReFeed+</a>
+      <a href="../prototype/index.html" class="logo">ReFeed+</a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <div class="nav-links" id="site-nav">
-        <a href="index.html" data-page="index.html">Home</a>
+        <a href="../prototype/index.html" data-page="index.html">Home</a>
         <a href="about.html" data-page="about.html">About</a>
-        <a href="market-customer.html" data-page="market-customer.html">Market</a>
-        <a href="business-financials.html" data-page="business-financials.html">Business</a>
-        <a href="team.html" data-page="team.html">Team</a>
-        <a href="contact.html" data-page="contact.html" class="cta-link">Contact</a>
+        <a href="../prototype/market-customer.html" data-page="market-customer.html">Market</a>
+        <a href="../prototype/business-financials.html" data-page="business-financials.html">Business</a>
+        <a href="../prototype/team.html" data-page="team.html">Team</a>
+        <a href="../prototype/contact.html" data-page="contact.html" class="cta-link">Contact</a>
       </div>
     </nav>
   </header>
 
-  <main id="main-content">
+  <main class="about-main" id="main-content">
 
-    <section class="hero section">
-      <div class="hero-grid">
-        <div class="panel hero-copy">
-          <p class="kicker">About</p>
-          <h1>A cleaner model for community food support.</h1>
-          <p class="lead">
-            ReFeed+ combines food waste reduction, local collection, and simple operations into one service idea.
-          </p>
+    <section class="hero about-hero">
+      <div class="about-container about-hero-content">
+        <div class="about-hero-text">
+          <h1>Converting Unsold Food into One-Tap Support</h1>
+          <p>REFEED+ is a POS-integrated surplus-food donation system designed for Irish food businesses to reduce waste
+            disposal costs and turn surplus food into a local, dignified resource for underprivileged individuals.</p>
+          <a href="../prototype/contact.html" id="about-hero-btn">Become our partner</a>
         </div>
-        <aside class="panel hero-side">
-          <div class="stat">
-            <span class="stat-value">Core</span>
-            <p>Low-friction donation through normal store routines.</p>
+        <div class="image-box">
+          <img src="../images/about_hero.jpg" alt="People unpacking food">
+        </div>
+      </div>
+    </section>
+
+    <section class="problems-grid about-container">
+      <div class="section-title">
+        <p class="small-label">Mission</p>
+        <h2>Our Mission is Simple - to Make Ireland a Better Place</h2>
+      </div>
+      <div class="problem-card">
+        <div class="card-img"><img src="../images/about_waste.jpg" alt="Image of food thrown to a bin">
+        </div>
+        <div class="card-content">
+          <h3>Reducing Food Waste at the Source</h3>
+          <p>Ireland generates approximately 835,000 tonnes of food waste annually, with the retail and food service
+            sectors contributing 30%. We turn daily operational waste into community impact by making donation as simple
+            as discarding.</p>
+          <div class="tags">
+            <span>250,000 tonnes of waste</span><span>1 tonne costing over €500</span>
           </div>
-          <div class="stat">
-            <span class="stat-value">Edge</span>
-            <p>Designed with access in mind, not just convenience.</p>
+        </div>
+      </div>
+
+      <div class="problem-card">
+        <div class="card-img"><img src="../images/about_kiosk.webp" alt="Cashier in a store"></div>
+        <div class="card-content">
+          <h3>Bridging the Digital Divide</h3>
+          <p>Many people experiencing housing insecurity lack smartphones and reliable internet access, excluding them
+            from existing food-share apps. Our in-store kiosks provide a low-barrier, anonymous pathway to healthy food
+            without requiring a mobile device.</p>
+          <div class="tags">
+            <span>In-store solution</span><span>No additional tech</span>
           </div>
-        </aside>
+        </div>
+      </div>
+
+      <div class="problem-card">
+        <div class="card-img"><img src="../images/about_data.jpg" alt="Visualisation of digital data"></div>
+        <div class="card-content">
+          <h3>Empowering Data-Driven Solutions</h3>
+          <p>National bodies and NGOs often rely on static, outdated reports to address food poverty. We provide
+            real-time, neighborhood-level data on food waste and community needs, offering an empirical foundation for
+            subsequent food waste solutions.</p>
+          <div class="tags">
+            <span>No more irrelevant data</span><span>Preventing future problems</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -72,17 +110,30 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="statement">
-        <h2>Small operational change. Stronger local outcome.</h2>
-        <p>
-          That is the central idea behind the product.
-        </p>
+    <section class="solutions about-container">
+      <div class="section-title">
+        <p class="small-label">Process</p>
+        <h2>How Exactly We Make Everyone's Life Better</h2>
+      </div>
+      <div class="solution-container">
+        <div class="solution-list">
+          <div class="list-item">
+            <strong>Underprivileged people</strong>
+          </div>
+          <div class="list-item">
+            <strong>Retail and Hospitality Businesses</strong>
+          </div>
+          <div class="list-item">
+            <strong>Research, Charity and Government Organisations</strong>
+          </div>
+        </div>
+        <div class="solution-content">
+          <p class="solution-text"></p>
+        </div>
       </div>
     </section>
 
   </main>
-
 
   <footer class="site-footer">
     <div class="footer-inner">
