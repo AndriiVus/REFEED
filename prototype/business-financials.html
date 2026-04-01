@@ -10,96 +10,181 @@
 </head>
 
 <body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
+<a class="skip-link" href="#main-content">Skip to content</a>
 
-  <header class="site-header">
-    <nav class="navbar" aria-label="Main navigation">
-      <a href="index.html" class="logo">ReFeed+</a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-      <div class="nav-links" id="site-nav">
-        <a href="index.html" data-page="index.html">Home</a>
-        <a href="about.html" data-page="about.html">About</a>
-        <a href="market-customer.html" data-page="market-customer.html">Market</a>
-        <a href="business-financials.html" data-page="business-financials.html">Business</a>
-        <a href="team.html" data-page="team.html">Team</a>
-        <a href="contact.html" data-page="contact.html" class="cta-link">Contact</a>
+<header class="site-header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="index.html" class="logo">ReFeed+</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <div class="nav-links" id="site-nav">
+      <a href="index.html" data-page="index.html">Home</a>
+      <a href="about.html" data-page="about.html">About</a>
+      <a href="market-customer.html" data-page="market-customer.html">Market</a>
+      <a href="business-financials.html" data-page="business-financials.html">Business</a>
+      <a href="team.html" data-page="team.html">Team</a>
+      <a href="contact.html" data-page="contact.html" class="cta-link">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+  <section class="business-page">
+    <div class="business-hero panel">
+      <div class="hero-left">
+        <p class="kicker">Business strategy</p>
+        <h1>Social value with a business case</h1>
+        <p class="lead">REFEED+ connects community impact with a practical, cost-saving reason for Irish businesses to participate.</p>
       </div>
-    </nav>
-  </header>
-
-  <main id="main-content">
-
-    <section class="hero section">
-      <div class="hero-grid">
-        <div class="panel hero-copy">
-          <p class="kicker">Business</p>
-          <h1>Social value with a business case.</h1>
-          <p class="lead">
-            The concept connects community impact with a practical reason for businesses to take part.
-          </p>
+      <div class="hero-right stat-grid">
+        <div class="stat card-small">
+          <button class="pill toggle-info" aria-expanded="false" aria-controls="info-pilot" id="btn-pilot">Pilot</button>
+          <p>Start small to validate the in-store workflow and ensure POS integration is frictionless for staff.</p>
+          <div class="info-popup" id="info-pilot" role="region" aria-hidden="true">
+            <h4>Pilot</h4>
+            <p>Run a controlled pilot in a few stores to validate the process, train staff and confirm POS workflows are simple and reliable.</p>
+          </div>
         </div>
-        <aside class="panel hero-side">
-          <div class="stat">
-            <span class="stat-value">Pilot</span>
-            <p>Start small. Validate the workflow.</p>
+        <div class="stat card-small">
+          <button class="pill toggle-info" aria-expanded="false" aria-controls="info-scale" id="btn-scale">Scale</button>
+          <p>Expand through local business clusters, turning many stores into micro-distribution points.</p>
+          <div class="info-popup" id="info-scale" role="region" aria-hidden="true">
+            <h4>Scale</h4>
+            <p>Grow by onboarding neighbouring stores and partners so each cluster provides consistent local access for beneficiaries.</p>
           </div>
-          <div class="stat">
-            <span class="stat-value">Scale</span>
-            <p>Expand through local business clusters.</p>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="grid-3">
-        <article class="card">
-          <span class="label">Revenue</span>
-          <h3>Subscription</h3>
-          <p>A business-facing monthly plan is the simplest model for an early rollout.</p>
-        </article>
-        <article class="card">
-          <span class="label">Value</span>
-          <h3>Waste reduction</h3>
-          <p>The strongest economic argument is reduced disposal and stronger sustainability positioning.</p>
-        </article>
-        <article class="card">
-          <span class="label">Growth</span>
-          <h3>Local expansion</h3>
-          <p>One successful pilot creates a clearer path to more stores and partner organisations.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="statement">
-        <h2>Prove usefulness first. Grow from there.</h2>
-        <p>
-          For an early version, that is the most realistic way to grow.
-        </p>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <p class="footer-mark">ReFeed+</p>
-        <p class="footer-tagline">Smarter surplus. Better access.</p>
-        <p class="footer-copy">A cleaner way for local food businesses to reduce waste and support people who need food
-          most.</p>
-      </div>
-      <div class="footer-contact">
-        <p class="footer-kicker">Contact</p>
-        <a href="mailto:support@refeed.com">support@refeed.com</a>
-        <p>Dublin, Ireland</p>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; <span id="year"></span> ReFeed+ · Two sides. One system.</p>
+        </div>
       </div>
     </div>
-  </footer>
+
+    <div class="summary-grid">
+      <article class="summary-card panel">
+        <h2>Value proposition</h2>
+        <p><strong>Waste reduction</strong> is the strongest economic argument for Irish businesses — divert surplus food, lower local disposal fees (often up to €500/mo), and improve sustainability reputation across Ireland.</p>
+      </article>
+
+      <article class="summary-card panel">
+        <h2>Revenue model — diversified & low-friction</h2>
+        <ul>
+          <li><strong>Core subscriptions (SaaS):</strong> Standard tier €20/month for food businesses. Add-ons (Pro) for larger chains: advanced reporting, volunteer routing, priority support.</li>
+          <li><strong>Data-as-a-Service (DaaS):</strong> Tiered licensing (e.g., Irish universities €60/mo; NGO/Gov €300+/mo) for anonymised, real-time neighbourhood insights useful to local councils and researchers.</li>
+          <li><strong>Partnerships & grants:</strong> Pilot funding, Irish government and local authority schemes (for example the Local Enhancement Programme), and research partnerships to reduce early-stage runway risk.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="revenue-panel panel">
+      <h2>Financial milestones (Year 1)</h2>
+      <p class="lead">Goal: multiply income ~2x every 4 months as we move from launch to city-wide maturity across Irish urban areas.</p>
+
+      <p class="lead">REFEED+ is targeting the estimated 260,000 tonnes of food wasted annually by Irish food businesses as its primary opportunity.</p>
+
+      <div class="projections-table">
+        <table class="projections">
+          <thead>
+          <tr>
+            <th>Period</th>
+            <th>Target subscriptions</th>
+            <th>Projected revenue</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Months 1–4 (Launch)</td>
+            <td>350</td>
+            <td>€28,000</td>
+          </tr>
+          <tr>
+            <td>Months 5–8 (Expansion)</td>
+            <td>1,575</td>
+            <td>€126,000</td>
+          </tr>
+          <tr>
+            <td>Months 9–12 (Maturation)</td>
+            <td>3,150</td>
+            <td>€252,000</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="community-panel panel">
+        <h2>Community subscription (for people experiencing homelessness)</h2>
+        <p class="lead">REFEED+ keeps access free for people who need it most — delivered through sponsor-funded subscriptions and trusted local partners.</p>
+
+        <ul>
+          <li><strong>Sponsor-funded subscriptions:</strong> Local businesses or community groups can sponsor monthly subscriptions that cover access for individuals.</li>
+          <li><strong>NGO & partner registration:</strong> Charities and social services can register beneficiaries and issue in-store vouchers or ID tokens.</li>
+          <li><strong>In-store access:</strong> No smartphone required — beneficiaries can redeem a voucher/code at participating stores or be served through partner-led collection points.</li>
+        </ul>
+
+        <button class="pill toggle-info" aria-expanded="false" aria-controls="info-community" id="btn-community">How beneficiaries access</button>
+        <div class="info-popup" id="info-community" role="region" aria-hidden="true">
+          <h4>Access options</h4>
+          <ol>
+            <li>Partner NGOs register individuals and provide a simple voucher or code.</li>
+            <li>Individuals present the voucher at participating stores and receive designated surplus items.</li>
+            <li>Alternatively, sponsored community subscriptions can be allocated monthly by local hubs.</li>
+          </ol>
+          <p>All access routes prioritise dignity and privacy — no public app profiles or exposure.</p>
+        </div>
+      </div>
+
+      <div class="chart-row">
+        <div class="mini-chart">
+          <!-- Simple SVG area for quick visual (static) -->
+          <svg viewBox="0 0 320 120" width="100%" height="120" role="img" aria-label="Year 1 revenue projection">
+            <defs>
+              <linearGradient id="g2" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0%" stop-color="#27ae60" stop-opacity="1" />
+                <stop offset="100%" stop-color="#184125" stop-opacity="0.9" />
+              </linearGradient>
+            </defs>
+            <rect x="30" y="56" width="60" height="56" rx="6" fill="url(#g2)" />
+            <rect x="130" y="20" width="60" height="92" rx="6" fill="url(#g2)" />
+            <rect x="230" y="8" width="60" height="104" rx="6" fill="url(#g2)" />
+            <text x="60" y="48" font-size="11" fill="#08210f" text-anchor="middle">€28k</text>
+            <text x="160" y="12" font-size="11" fill="#08210f" text-anchor="middle">€126k</text>
+            <text x="260" y="-4" font-size="11" fill="#08210f" text-anchor="middle">€252k</text>
+            <text x="60" y="118" font-size="10" fill="#444" text-anchor="middle">M1–4</text>
+            <text x="160" y="118" font-size="10" fill="#444" text-anchor="middle">M5–8</text>
+            <text x="260" y="118" font-size="10" fill="#444" text-anchor="middle">M9–12</text>
+          </svg>
+        </div>
+
+        <div class="growth-list">
+          <h3>Strategic growth drivers</h3>
+          <ul>
+            <li><strong>Local cluster expansion:</strong> Grow neighbourhood-by-neighbourhood for consistent access.</li>
+            <li><strong>Operational integration:</strong> Make donation frictionless through POS integration to increase retention.</li>
+            <li><strong>B2B engagement:</strong> Monthly impact reports, gamification and KPIs to keep managers invested.</li>
+            <li><strong>National roadmap:</strong> Position REFEED+ for city and national contracts with NGOs and authorities.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="muted">REFEED+ · Smarter surplus. Better access. · <a href="mailto:support@refeed.com">support@refeed.com</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <p class="footer-mark">ReFeed+</p>
+      <p class="footer-tagline">Smarter surplus. Better access.</p>
+      <p class="footer-copy">A cleaner way for local food businesses to reduce waste and support people who need food
+        most.</p>
+    </div>
+    <div class="footer-contact">
+      <p class="footer-kicker">Contact</p>
+      <a href="mailto:support@refeed.com">support@refeed.com</a>
+      <p>Dublin, Ireland</p>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> ReFeed+ · Two sides. One system.</p>
+    </div>
+  </div>
+</footer>
 </body>
 
 </html>
