@@ -87,14 +87,8 @@ img {
   gap: 20px;
 }
 
-.logo {
-  text-decoration: none;
-  font-family: var(--heading-font);
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: -0.03em;
-  line-height: 1;
-  color: #f7fbf4;
+.logo img {
+  height: 40px;
 }
 
 
@@ -926,6 +920,12 @@ textarea {
   letter-spacing: -0.03em;
   line-height: 1;
   color: #f4fbf1;
+}
+
+.footer-logo {
+  width: 130px;
+  height: auto;
+  display: block;
 }
 
 .footer-kicker {
