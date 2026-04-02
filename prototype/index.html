@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ReFeed+ | Home</title>
+  <title>ReFeed+ | About</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="script.js" defer></script>
 </head>
@@ -31,59 +31,111 @@
     </nav>
   </header>
 
-  <main id="main-content">
+  <main class="about-main" id="main-content">
 
-    <section class="hero section">
-      <div class="hero-grid">
-        <div class="panel hero-copy">
-          <p class="kicker">Home</p>
-          <h1>Surplus food, redirected better.</h1>
-          <p class="lead">
-            ReFeed+ is a concept for helping local businesses move edible surplus food to people who need it,
-            through a simple in-store process.
-          </p>
-          <div class="button-row">
-            <a href="about.html" class="button primary">See the concept</a>
-            <a href="contact.html" class="button secondary">Contact us</a>
-          </div>
+    <section class="hero about-hero">
+      <div class="about-container about-hero-content">
+        <div class="about-hero-text">
+          <h1>Converting Unsold Food into One-Tap Support</h1>
+          <p>ReFeed+ is a POS-integrated surplus-food donation system designed for Irish food businesses to reduce waste
+            disposal costs and turn surplus food into a local, dignified resource for underprivileged individuals.</p>
+          <a href="contact.html" id="about-hero-btn">Become our partner</a>
         </div>
-
-        <aside class="panel hero-side" aria-label="Highlights">
-          <div class="stat">
-            <span class="stat-value">Simple</span>
-            <p>Designed around low-friction store workflows.</p>
-          </div>
-          <div class="stat">
-            <span class="stat-value">Local</span>
-            <p>Keeps surplus food closer to the community.</p>
-          </div>
-          <div class="stat">
-            <span class="stat-value">Inclusive</span>
-            <p>Not built around app dependence.</p>
-          </div>
-        </aside>
+        <div class="image-box">
+          <img src="../images/about_hero.jpg" alt="People unpacking food">
+        </div>
       </div>
+    </section>
+
+    <section class="section about-container">
+      <div class="section-header">
+        <p class="kicker">Service</p>
+        <h2>How the System Works in Practice</h2>
+      </div>
+
+      <div class="problem-card info-card">
+        <div class="card-content">
+          <span class="label">Our Service</span>
+          <h3>A simple in-store donation flow built around existing POS systems</h3>
+          <p class="info-lead">
+            ReFeed+ is a POS-integrated surplus-food donation system for food businesses that turns unsold food
+            into visible, local support.
+          </p>
+          <p>
+            Staff can select eligible surplus items directly through the store's existing workflow and add them
+            to a donation database, which is then shown through an in-store kiosk for approved recipients.
+          </p>
+          <p>
+            This can include near-expiry products, post best-before goods, and end-of-day bakery stock that
+            cannot be sold the next day. The system is designed to work for underprivileged individuals,
+            including people who may not have access to a phone.
+          </p>
+        </div>
+      </div>
+
+      <div class="problem-card info-card">
+        <div class="card-content">
+          <span class="label">Our Aims</span>
+          <h3>Designed to reduce waste, widen access, and stay practical for busy staff</h3>
+          <p class="info-lead">
+            The model is built around five priorities that keep the service useful for businesses and accessible
+            for the people who need it.
+          </p>
+          <ul class="aim-list">
+            <li><strong>Reduce food waste at the source</strong> by making donation as easy as discarding.</li>
+            <li><strong>Improve access across Dublin</strong> by turning many stores into micro-distribution points.
+            </li>
+            <li><strong>Remove digital barriers</strong> so the system still works for people without smartphones.</li>
+            <li><strong>Maintain fairness</strong> through eligibility checks and weekly item limits.</li>
+            <li><strong>Keep the workflow simple</strong> so staff will actually use it during busy hours.</li>
+          </ul>
+        </div>
+      </div>
+
     </section>
 
     <section class="section">
       <div class="section-header">
-        <p class="kicker">Key points</p>
-        <h2>What it solves</h2>
+        <p class="kicker">Product details</p>
+        <h2>How the service would work in practice</h2>
       </div>
-      <div class="grid-3">
-        <article class="card">
-          <h3>Less waste</h3>
-          <p>Good food should not become avoidable disposal.</p>
+
+      <div class="process-grid">
+        <article class="card process-step">
+          <span class="step-number">01</span>
+          <h3>Surplus is recorded</h3>
+          <p>Staff identify eligible food that cannot be sold and add it into the donation flow through the POS.</p>
         </article>
-        <article class="card">
-          <h3>Better access</h3>
-          <p>Support should still work for digitally excluded users.</p>
+
+        <article class="card process-step">
+          <span class="step-number">02</span>
+          <h3>Food becomes visible</h3>
+          <p>Available items appear at the store access point, making the offer clear without requiring an app.</p>
         </article>
-        <article class="card">
-          <h3>Clear value</h3>
-          <p>Businesses gain a practical reason to participate.</p>
+
+        <article class="card process-step">
+          <span class="step-number">03</span>
+          <h3>Eligibility is checked</h3>
+          <p>The system verifies access rules and weekly limits so distribution stays fair and controlled.</p>
+        </article>
+
+        <article class="card process-step">
+          <span class="step-number">04</span>
+          <h3>Food is handed over</h3>
+          <p>Approved users receive food locally, turning operational waste into immediate neighbourhood support.</p>
         </article>
       </div>
+    </section>
+
+    <section class="section">
+      <article class="card">
+        <span class="label">Next step</span>
+        <h3>Interested in how ReFeed+ could fit your store or organisation?</h3>
+        <p>
+          The model is built to make local impact visible while staying realistic for everyday operations.
+        </p>
+        <a href="contact.html" class="fake-button">Connect with our team</a>
+      </article>
     </section>
 
   </main>

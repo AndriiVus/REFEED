@@ -170,6 +170,10 @@ main {
   padding: 40px;
 }
 
+.process-step {
+  margin: 18px;
+}
+
 .kicker {
   margin: 0 0 14px;
   color: var(--text-soft);
@@ -263,7 +267,7 @@ h4 {
 
 .section-header {
   width: 100%;
-  max-width: 760px;
+  max-width: 960px;
   margin-bottom: 24px;
 }
 
